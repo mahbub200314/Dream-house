@@ -1,0 +1,373 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:'poppins'
+}
+
+#navbar{
+    background-color: #eee;
+    padding-left:3%;
+    padding-right:5%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+}
+
+#navbar .navbar-brand h2{
+color:black;
+letter-spacing: 2px;
+
+}
+
+#navbar .navbar-brand h2 span{
+    color:rgb(229, 229, 76);
+}
+
+#navbar a{
+    font-size:1.3rem;
+    
+}
+
+.container{
+    width:100%;
+    
+    box-sizing: border-box;
+}
+
+
+.carousel-inner h1{
+
+   color:#eee;     
+
+}
+
+.carousel-inner button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.carousel-inner{
+    position: relative;
+    max-height: 95vh;
+    
+    
+}
+
+.carousel-inner img{
+    max-height: 95vh;
+    width: 100%;
+}
+
+
+
+
+.carousel-inner button:hover{
+     
+    background-color: black;
+    color:white;
+    border: 1px transparent solid;
+}
+
+.carousel-caption{
+    top: 40%;
+    z-index: 2;
+    
+}
+
+.carousel-caption h1{
+    margin-top:20px;
+
+}
+
+.carousel-caption p{
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+
+.carousel-inner:before{
+    content:'';
+    width:100%;
+    height: 100%;
+    top:0px;
+    left:0px;
+    position: absolute;
+    background:rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.carousel-indicators .button{
+    position: absolute;
+    top:70%;
+}
+
+
+
+/*  ***** media screen   */
+
+
+@media only screen and (max-width:770px) {
+    
+    .carousel-caption{
+    position: absolute;
+    top:10px;
+ 
+ 
+    
+    }
+}
+
+
+@media only screen and (max-width:513px){
+   
+    .carousel-caption{
+        position: absolute;
+        top:5px;
+        
+     
+     
+        
+}
+
+.carousel-caption h1{
+    font-size: 4vw;
+    margin-top: 0vw;
+
+}
+
+.carousel-caption p{
+    letter-spacing: 0px;
+    width: 100%;
+    font-size: 3vw;
+}
+.carousel-caption button{
+    padding:2vw;
+    font-size: 3vw;
+}
+
+}
+
+
+.carousel-indicators button{
+   margin-bottom: 2.8vw;
+    
+    
+}
+
+
+
+
+
+
+
+/*  ******  about section  ******* */
+
+
+
+
+.row{
+    min-height: 80vh;
+
+    width: 100%;
+    
+}
+
+
+
+
+#first img{
+    width: 70%;
+    
+    height: 80%;
+   
+    
+
+
+    border-radius:10px;
+
+
+
+}
+#first{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.description button{
+    padding:10px;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-color: skyblue;
+    font-size: 1.2rem;
+}
+
+.description button:hover{
+    color:#eee;
+    background-color: black;
+}
+
+
+@media only screen and (max-width:660px){
+    #second{
+        padding:10vw;
+    }
+}
+
+
+
+
+/* ************* service   ************* */
+
+/* ************* service   ************* */
+
+/* ************* service   ************* */
+
+.service{
+
+    background-color: #eee;
+    
+    
+
+}
+
+.servicedescripe{
+    text-align: center;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+}
+
+.card{
+    margin:5%;
+    text-align: center;
+}
+
+
+.card svg{
+    font-size: 1.5rem;
+
+}
+
+.card a:hover{
+    color:yellow;
+    background-color: black;
+    border:1px solid transparent;
+}
+
+
+@media only screen and (max-width:730px){
+    .card{
+        margin:2%;
+    }
+}
+
+@media only screen and (max-width:515px){
+    .card{
+        margin:1%;
+        
+    }
+
+
+    .cards{
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        align-items: center;
+    
+    
+    
+    
+    
+    }
+}
+
+.team{
+    min-height: 90vh;
+    
+}
+.projectdescription{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.teamdescripe{
+    text-align: center;
+}
+
+.team .card img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    
+}
+
+
+
+.team .card{
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.7);
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.team .card svg{
+    margin:5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ************* footer   ************* */
+
+.footer{
+    height:80vh;
+    padding:5%;
+    background-color: gray;
+    
+    
+}
+
+.footerhead
+{
+    text-align: center;
+}
+
+
+
+
